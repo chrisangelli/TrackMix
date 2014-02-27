@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDFB8B7D18BBF87300DB0170 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFB8B7C18BBF87300DB0170 /* Cocoa.framework */; };
+		BDFB8B8718BBF87300DB0170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDFB8B8518BBF87300DB0170 /* InfoPlist.strings */; };
+		BDFB8B8918BBF87300DB0170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB8B8818BBF87300DB0170 /* main.m */; };
+		BDFB8B8D18BBF87300DB0170 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BDFB8B8B18BBF87300DB0170 /* Credits.rtf */; };
+		BDFB8B9018BBF87300DB0170 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB8B8F18BBF87300DB0170 /* Document.m */; };
+		BDFB8B9318BBF87300DB0170 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFB8B9118BBF87300DB0170 /* Document.xib */; };
+		BDFB8B9618BBF87300DB0170 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFB8B9418BBF87300DB0170 /* MainMenu.xib */; };
+		BDFB8B9918BBF87300DB0170 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDFB8B9718BBF87300DB0170 /* Document.xcdatamodeld */; };
+		BDFB8B9B18BBF87300DB0170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFB8B9A18BBF87300DB0170 /* Images.xcassets */; };
+		BDFB8BA218BBF87300DB0170 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFB8BA118BBF87300DB0170 /* XCTest.framework */; };
+		BDFB8BA318BBF87300DB0170 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFB8B7C18BBF87300DB0170 /* Cocoa.framework */; };
+		BDFB8BAB18BBF87300DB0170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDFB8BA918BBF87300DB0170 /* InfoPlist.strings */; };
+		BDFB8BAD18BBF87300DB0170 /* TrackMixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB8BAC18BBF87300DB0170 /* TrackMixTests.m */; };
+		BDFB8BB518BBF87300DB0170 /* TrackMixImporter.mdimporter in Resources */ = {isa = PBXBuildFile; fileRef = BDFB8BB218BBF87300DB0170 /* TrackMixImporter.mdimporter */; };
+		BDFB8BB718BBF87300DB0170 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFB8BB618BBF87300DB0170 /* CoreServices.framework */; };
+		BDFB8BB918BBF87300DB0170 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFB8BB818BBF87300DB0170 /* CoreFoundation.framework */; };
+		BDFB8BBB18BBF87300DB0170 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFB8BBA18BBF87300DB0170 /* CoreData.framework */; };
+		BDFB8BBD18BBF87300DB0170 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFB8BBC18BBF87300DB0170 /* Foundation.framework */; };
+		BDFB8BC318BBF87300DB0170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDFB8BC118BBF87300DB0170 /* InfoPlist.strings */; };
+		BDFB8BC518BBF87300DB0170 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BDFB8BC418BBF87300DB0170 /* main.c */; };
+		BDFB8BC718BBF87300DB0170 /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB8BC618BBF87300DB0170 /* GetMetadataForFile.m */; };
+		BDFB8BCA18BBF87300DB0170 /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB8BC918BBF87300DB0170 /* MySpotlightImporter.m */; };
+		BDFB8BDA18BC053C00DB0170 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB8BD918BC053C00DB0170 /* Track.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDFB8BA418BBF87300DB0170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFB8B7118BBF87300DB0170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFB8B7818BBF87300DB0170;
+			remoteInfo = TrackMix;
+		};
+		BDFB8BB318BBF87300DB0170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFB8B7118BBF87300DB0170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFB8BB118BBF87300DB0170;
+			remoteInfo = TrackMixImporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDFB8B7918BBF87300DB0170 /* TrackMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFB8B7C18BBF87300DB0170 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BDFB8B7F18BBF87300DB0170 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BDFB8B8018BBF87300DB0170 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDFB8B8118BBF87300DB0170 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDFB8B8418BBF87300DB0170 /* TrackMix-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMix-Info.plist"; sourceTree = "<group>"; };
+		BDFB8B8618BBF87300DB0170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDFB8B8818BBF87300DB0170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDFB8B8A18BBF87300DB0170 /* TrackMix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackMix-Prefix.pch"; sourceTree = "<group>"; };
+		BDFB8B8C18BBF87300DB0170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BDFB8B8E18BBF87300DB0170 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		BDFB8B8F18BBF87300DB0170 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		BDFB8B9218BBF87300DB0170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		BDFB8B9518BBF87300DB0170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BDFB8B9818BBF87300DB0170 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		BDFB8B9A18BBF87300DB0170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDFB8BA018BBF87300DB0170 /* TrackMixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFB8BA118BBF87300DB0170 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BDFB8BA818BBF87300DB0170 /* TrackMixTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMixTests-Info.plist"; sourceTree = "<group>"; };
+		BDFB8BAA18BBF87300DB0170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDFB8BAC18BBF87300DB0170 /* TrackMixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackMixTests.m; sourceTree = "<group>"; };
+		BDFB8BB218BBF87300DB0170 /* TrackMixImporter.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackMixImporter.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFB8BB618BBF87300DB0170 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		BDFB8BB818BBF87300DB0170 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BDFB8BBA18BBF87300DB0170 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BDFB8BBC18BBF87300DB0170 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDFB8BC018BBF87300DB0170 /* TrackMixImporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackMixImporter-Info.plist"; sourceTree = "<group>"; };
+		BDFB8BC218BBF87300DB0170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDFB8BC418BBF87300DB0170 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BDFB8BC618BBF87300DB0170 /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		BDFB8BC818BBF87300DB0170 /* MySpotlightImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySpotlightImporter.h; sourceTree = "<group>"; };
+		BDFB8BC918BBF87300DB0170 /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
+		BDFB8BCB18BBF87300DB0170 /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
+		BDFB8BCC18BBF87300DB0170 /* TrackMixImporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackMixImporter-Prefix.pch"; sourceTree = "<group>"; };
+		BDFB8BD818BC053C00DB0170 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		BDFB8BD918BC053C00DB0170 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFB8B7618BBF87300DB0170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8B7D18BBF87300DB0170 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFB8B9D18BBF87300DB0170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8BA318BBF87300DB0170 /* Cocoa.framework in Frameworks */,
+				BDFB8BA218BBF87300DB0170 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFB8BAF18BBF87300DB0170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8BB918BBF87300DB0170 /* CoreFoundation.framework in Frameworks */,
+				BDFB8BBB18BBF87300DB0170 /* CoreData.framework in Frameworks */,
+				BDFB8BB718BBF87300DB0170 /* CoreServices.framework in Frameworks */,
+				BDFB8BBD18BBF87300DB0170 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDFB8B7018BBF87300DB0170 = {
+			isa = PBXGroup;
+			children = (
+				BDFB8B8218BBF87300DB0170 /* TrackMix */,
+				BDFB8BA618BBF87300DB0170 /* TrackMixTests */,
+				BDFB8BBE18BBF87300DB0170 /* TrackMixImporter */,
+				BDFB8B7B18BBF87300DB0170 /* Frameworks */,
+				BDFB8B7A18BBF87300DB0170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFB8B7A18BBF87300DB0170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8B7918BBF87300DB0170 /* TrackMix.app */,
+				BDFB8BA018BBF87300DB0170 /* TrackMixTests.xctest */,
+				BDFB8BB218BBF87300DB0170 /* TrackMixImporter.mdimporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFB8B7B18BBF87300DB0170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8B7C18BBF87300DB0170 /* Cocoa.framework */,
+				BDFB8BA118BBF87300DB0170 /* XCTest.framework */,
+				BDFB8BB618BBF87300DB0170 /* CoreServices.framework */,
+				BDFB8BB818BBF87300DB0170 /* CoreFoundation.framework */,
+				BDFB8BBA18BBF87300DB0170 /* CoreData.framework */,
+				BDFB8BBC18BBF87300DB0170 /* Foundation.framework */,
+				BDFB8B7E18BBF87300DB0170 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDFB8B7E18BBF87300DB0170 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8B7F18BBF87300DB0170 /* AppKit.framework */,
+				BDFB8B8018BBF87300DB0170 /* CoreData.framework */,
+				BDFB8B8118BBF87300DB0170 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BDFB8B8218BBF87300DB0170 /* TrackMix */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8B8E18BBF87300DB0170 /* Document.h */,
+				BDFB8B8F18BBF87300DB0170 /* Document.m */,
+				BDFB8B9118BBF87300DB0170 /* Document.xib */,
+				BDFB8B9418BBF87300DB0170 /* MainMenu.xib */,
+				BDFB8B9A18BBF87300DB0170 /* Images.xcassets */,
+				BDFB8B9718BBF87300DB0170 /* Document.xcdatamodeld */,
+				BDFB8B8318BBF87300DB0170 /* Supporting Files */,
+				BDFB8BD818BC053C00DB0170 /* Track.h */,
+				BDFB8BD918BC053C00DB0170 /* Track.m */,
+			);
+			path = TrackMix;
+			sourceTree = "<group>";
+		};
+		BDFB8B8318BBF87300DB0170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8B8418BBF87300DB0170 /* TrackMix-Info.plist */,
+				BDFB8B8518BBF87300DB0170 /* InfoPlist.strings */,
+				BDFB8B8818BBF87300DB0170 /* main.m */,
+				BDFB8B8A18BBF87300DB0170 /* TrackMix-Prefix.pch */,
+				BDFB8B8B18BBF87300DB0170 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDFB8BA618BBF87300DB0170 /* TrackMixTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8BAC18BBF87300DB0170 /* TrackMixTests.m */,
+				BDFB8BA718BBF87300DB0170 /* Supporting Files */,
+			);
+			path = TrackMixTests;
+			sourceTree = "<group>";
+		};
+		BDFB8BA718BBF87300DB0170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8BA818BBF87300DB0170 /* TrackMixTests-Info.plist */,
+				BDFB8BA918BBF87300DB0170 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDFB8BBE18BBF87300DB0170 /* TrackMixImporter */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8BC618BBF87300DB0170 /* GetMetadataForFile.m */,
+				BDFB8BC818BBF87300DB0170 /* MySpotlightImporter.h */,
+				BDFB8BC918BBF87300DB0170 /* MySpotlightImporter.m */,
+				BDFB8BCB18BBF87300DB0170 /* Importer Read Me.txt */,
+				BDFB8BBF18BBF87300DB0170 /* Supporting Files */,
+			);
+			path = TrackMixImporter;
+			sourceTree = "<group>";
+		};
+		BDFB8BBF18BBF87300DB0170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB8BC018BBF87300DB0170 /* TrackMixImporter-Info.plist */,
+				BDFB8BC118BBF87300DB0170 /* InfoPlist.strings */,
+				BDFB8BC418BBF87300DB0170 /* main.c */,
+				BDFB8BCC18BBF87300DB0170 /* TrackMixImporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFB8B7818BBF87300DB0170 /* TrackMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFB8BD218BBF87300DB0170 /* Build configuration list for PBXNativeTarget "TrackMix" */;
+			buildPhases = (
+				BDFB8B7518BBF87300DB0170 /* Sources */,
+				BDFB8B7618BBF87300DB0170 /* Frameworks */,
+				BDFB8B7718BBF87300DB0170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFB8BB418BBF87300DB0170 /* PBXTargetDependency */,
+			);
+			name = TrackMix;
+			productName = TrackMix;
+			productReference = BDFB8B7918BBF87300DB0170 /* TrackMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDFB8B9F18BBF87300DB0170 /* TrackMixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFB8BD518BBF87300DB0170 /* Build configuration list for PBXNativeTarget "TrackMixTests" */;
+			buildPhases = (
+				BDFB8B9C18BBF87300DB0170 /* Sources */,
+				BDFB8B9D18BBF87300DB0170 /* Frameworks */,
+				BDFB8B9E18BBF87300DB0170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFB8BA518BBF87300DB0170 /* PBXTargetDependency */,
+			);
+			name = TrackMixTests;
+			productName = TrackMixTests;
+			productReference = BDFB8BA018BBF87300DB0170 /* TrackMixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDFB8BB118BBF87300DB0170 /* TrackMixImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFB8BCF18BBF87300DB0170 /* Build configuration list for PBXNativeTarget "TrackMixImporter" */;
+			buildPhases = (
+				BDFB8BAE18BBF87300DB0170 /* Sources */,
+				BDFB8BAF18BBF87300DB0170 /* Frameworks */,
+				BDFB8BB018BBF87300DB0170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMixImporter;
+			productName = TrackMixImporter;
+			productReference = BDFB8BB218BBF87300DB0170 /* TrackMixImporter.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFB8B7118BBF87300DB0170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Chris Angelli";
+				TargetAttributes = {
+					BDFB8B9F18BBF87300DB0170 = {
+						TestTargetID = BDFB8B7818BBF87300DB0170;
+					};
+				};
+			};
+			buildConfigurationList = BDFB8B7418BBF87300DB0170 /* Build configuration list for PBXProject "TrackMix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFB8B7018BBF87300DB0170;
+			productRefGroup = BDFB8B7A18BBF87300DB0170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFB8B7818BBF87300DB0170 /* TrackMix */,
+				BDFB8B9F18BBF87300DB0170 /* TrackMixTests */,
+				BDFB8BB118BBF87300DB0170 /* TrackMixImporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFB8B7718BBF87300DB0170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8B9318BBF87300DB0170 /* Document.xib in Resources */,
+				BDFB8B9B18BBF87300DB0170 /* Images.xcassets in Resources */,
+				BDFB8B8718BBF87300DB0170 /* InfoPlist.strings in Resources */,
+				BDFB8B8D18BBF87300DB0170 /* Credits.rtf in Resources */,
+				BDFB8B9618BBF87300DB0170 /* MainMenu.xib in Resources */,
+				BDFB8BB518BBF87300DB0170 /* TrackMixImporter.mdimporter in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFB8B9E18BBF87300DB0170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8BAB18BBF87300DB0170 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFB8BB018BBF87300DB0170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8BC318BBF87300DB0170 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFB8B7518BBF87300DB0170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8B9918BBF87300DB0170 /* Document.xcdatamodeld in Sources */,
+				BDFB8B9018BBF87300DB0170 /* Document.m in Sources */,
+				BDFB8B8918BBF87300DB0170 /* main.m in Sources */,
+				BDFB8BDA18BC053C00DB0170 /* Track.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFB8B9C18BBF87300DB0170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8BAD18BBF87300DB0170 /* TrackMixTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFB8BAE18BBF87300DB0170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFB8BCA18BBF87300DB0170 /* MySpotlightImporter.m in Sources */,
+				BDFB8BC518BBF87300DB0170 /* main.c in Sources */,
+				BDFB8BC718BBF87300DB0170 /* GetMetadataForFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDFB8BA518BBF87300DB0170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFB8B7818BBF87300DB0170 /* TrackMix */;
+			targetProxy = BDFB8BA418BBF87300DB0170 /* PBXContainerItemProxy */;
+		};
+		BDFB8BB418BBF87300DB0170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFB8BB118BBF87300DB0170 /* TrackMixImporter */;
+			targetProxy = BDFB8BB318BBF87300DB0170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDFB8B8518BBF87300DB0170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFB8B8618BBF87300DB0170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDFB8B8B18BBF87300DB0170 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFB8B8C18BBF87300DB0170 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BDFB8B9118BBF87300DB0170 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFB8B9218BBF87300DB0170 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		BDFB8B9418BBF87300DB0170 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFB8B9518BBF87300DB0170 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BDFB8BA918BBF87300DB0170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFB8BAA18BBF87300DB0170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDFB8BC118BBF87300DB0170 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFB8BC218BBF87300DB0170 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFB8BCD18BBF87300DB0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDFB8BCE18BBF87300DB0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDFB8BD018BBF87300DB0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMixImporter/TrackMixImporter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrackMixImporter/TrackMixImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		BDFB8BD118BBF87300DB0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMixImporter/TrackMixImporter-Prefix.pch";
+				INFOPLIST_FILE = "TrackMixImporter/TrackMixImporter-Info.plist";
+				INSTALL_PATH = "@executable_path/../Contents/Library/Spotlight";
+				LIBRARY_STYLE = BUNDLE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+		BDFB8BD318BBF87300DB0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMix/TrackMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDFB8BD418BBF87300DB0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMix/TrackMix-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDFB8BD618BBF87300DB0170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackMix.app/Contents/MacOS/TrackMix";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrackMixTests/TrackMixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BDFB8BD718BBF87300DB0170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackMix.app/Contents/MacOS/TrackMix";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackMix/TrackMix-Prefix.pch";
+				INFOPLIST_FILE = "TrackMixTests/TrackMixTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFB8B7418BBF87300DB0170 /* Build configuration list for PBXProject "TrackMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFB8BCD18BBF87300DB0170 /* Debug */,
+				BDFB8BCE18BBF87300DB0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFB8BCF18BBF87300DB0170 /* Build configuration list for PBXNativeTarget "TrackMixImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFB8BD018BBF87300DB0170 /* Debug */,
+				BDFB8BD118BBF87300DB0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDFB8BD218BBF87300DB0170 /* Build configuration list for PBXNativeTarget "TrackMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFB8BD318BBF87300DB0170 /* Debug */,
+				BDFB8BD418BBF87300DB0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDFB8BD518BBF87300DB0170 /* Build configuration list for PBXNativeTarget "TrackMixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFB8BD618BBF87300DB0170 /* Debug */,
+				BDFB8BD718BBF87300DB0170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDFB8B9718BBF87300DB0170 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDFB8B9818BBF87300DB0170 /* Document.xcdatamodel */,
+			);
+			currentVersion = BDFB8B9818BBF87300DB0170 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDFB8B7118BBF87300DB0170 /* Project object */;
+}
