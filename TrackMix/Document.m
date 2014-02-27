@@ -62,6 +62,7 @@
         senderName = @"slider";
     }
     NSLog(@"%@ sent takeFloatValueForVolumeFrom: with value %1.2f", senderName, [sender floatValue]);
+    NSLog(@"%@ Here is a change in the ChrisA branch", senderName);
     
     float newValue = [sender floatValue];
     [self.track setVolume:newValue];
